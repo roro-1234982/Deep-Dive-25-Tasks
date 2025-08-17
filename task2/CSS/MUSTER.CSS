@@ -1,57 +1,59 @@
   
 
-  #PERFUME{
+.PERFUME{
   flex-direction: row;
   display: flex;
   background-color: #fef6f1;
   justify-content: center;
   align-items: center;
-  height: 1000px;
+  height: 1000PX;
 }
-#card {
-  display: flex;
+/*.card {
+ display: flex;
   background: white;
-  border-radius: 10px;
+  border-radius: 30px;
   overflow: hidden;
-  max-width: 700px;
+  max-width: 800px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-}
+  gap: 100px;
+}*/
 
-#card-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.PURFUME-imge img {
+  width: 50%;
+  height: 70%;
+   object-fit: cover; 
 }
-#card-image {
+.PURFUME-imge{
   flex: 1;
 }
-#card-content {
+.card-content {
   flex: 1;
   padding: 20px;
+  #ro{color: gray;}
 }
-#tag {
+.tag {
   color: gray;
   font-size: 12px;
   letter-spacing: 2px;
 }
 
 h1 {
-  font-size: 22px;
-  margin: 10px 0;
+  font-size: 55px;
+  margin: 40px 30px;
 }
-#desc {
+.desc {
   font-size: 14px;
   color: #555;
   margin-bottom: 20px;
 }
 
-#price {
-  display: flex;
+.price {
+  
   align-items: center;
   gap: 10px;
 }
 .price .current {
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bold;
   color: #2a7c4a;
 }
@@ -65,7 +67,7 @@ button {
   background-color: #2a7c4a;
   color: white;
   border: none;
-  padding: 10px 15px;
+  padding: 15px 50px;
   border-radius: 5px;
   cursor: pointer;
   font-size: 14px;
